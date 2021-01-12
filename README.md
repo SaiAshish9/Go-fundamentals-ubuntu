@@ -13,4 +13,4 @@ go get github.com/nsf/gocode \
 export GOPATH=$GOPATH:/home/saiashish9/code \
 mkdir code \
 cd code \
-mkdir src
+mkdir src bin pkg
