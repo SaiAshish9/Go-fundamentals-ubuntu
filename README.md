@@ -14,3 +14,4 @@ export GOPATH=$GOPATH:/home/saiashish9/code \
 mkdir code \
 cd code \
 mkdir src bin pkg
+go run <>.go
