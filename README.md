@@ -14,4 +14,10 @@ export GOPATH=$GOPATH:/home/saiashish9/code \
 mkdir code \
 cd code \
 mkdir src bin pkg
-go run <>.go
+go run <>.go \
+go build github.com/saiashish9/firstapp \
+./firstapp \
+go install github.com/saiashish9/firstapp \
+bin/firstapp \
+https://golang.org/pkg/ \
+cd /usr/local/go/src/net/http \
