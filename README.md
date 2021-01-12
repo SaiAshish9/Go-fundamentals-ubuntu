@@ -5,5 +5,6 @@ https://golang.org/doc/install \
 export GOROOT=/usr/local/go \
 export PATH=$PATH:$GOROOT/bin \
 source ~/.bashrc \
-go version
-
+go version \
+export GOPATH=/home/saiashish9/golib
+export PATH=$PATH:$GOPATH/bin
