@@ -4,5 +4,6 @@ golangbridge.org \
 https://golang.org/doc/install \
 export GOROOT=/usr/local/go \
 export PATH=$PATH:$GOROOT/bin \
-source ~/.bashrc
+source ~/.bashrc \
+go version
 
