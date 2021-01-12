@@ -10,4 +10,7 @@ export GOPATH=/home/saiashish9/golib
 export PATH=$PATH:$GOPATH/bin \
 source .bashrc \
 go get github.com/nsf/gocode \
-export GOPATH=$GOPATH:/home/saiashish9/code
+export GOPATH=$GOPATH:/home/saiashish9/code \
+mkdir code \
+cd code \
+mkdir src
