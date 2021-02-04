@@ -28,7 +28,7 @@ func panicker() {
 }
 
 // Defer
-// Used to delay execution of a statement until dunction exits
+// Used to delay execution of a statement until function exits
 // Useful to group "open" and "close" functions together
 // Run in LIFO
 // Arguments evaluated at time defer is executed, not at time of called function execution
