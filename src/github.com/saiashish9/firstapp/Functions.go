@@ -3,13 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	// sayMsg("Go")
-	// greeting := "Hello"
-	// name := "Sai"
-	// sayGreeting(&greeting, &name)
-	// fmt.Println(name)
-	// sum(1, 2, 3, 4)
-
+	sayMsg("Go")
+	greeting := "Hello"
+	name := "Sai"
+	sayGreeting(&greeting, &name)
+	fmt.Println(name)
+	sum(1, 2, 3, 4)
 	g := greeter{
 		"hi", "Go",
 	}
@@ -42,6 +41,6 @@ func sayGreeting(greeting, name *string) {
 	fmt.Println(*name)
 }
 
-// func sayMsg(msg string) {
-// 	fmt.Println(msg)
-// }
+func sayMsg(msg string) {
+	fmt.Println(msg)
+}
