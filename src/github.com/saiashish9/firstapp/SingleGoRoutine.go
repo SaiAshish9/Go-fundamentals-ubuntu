@@ -8,9 +8,7 @@ import (
 // creating goroutines
 // synchronization waitgroups mutexes
 // parallelism
-
 var wg = sync.WaitGroup{}
-
 func main() {
 	// go sayHello()
 	// to spin up a new thread and run a new thread in that function
